@@ -5,22 +5,7 @@ by NRRINC Media
 
 # How it works:
 
-  
-
-```mermaid
-
-graph LR
-
-A[index.php] -- Phones--> B((mobile.php))
-
-A -- Desktop-->C(desktop.php)
-
-B --> D{End user}
-
-C --> D
-
-```
-
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtJbmRleC5waHBdIC0tPnxTZWUgZGV2aWNlfCBCKEdyYWIgVXNlciBBZ2VudClcblx0QiAtLT4gQ3tNb3ZlIGRldmljZX1cblx0QyAtLT58TW9iaWxlfCBEW21vYmlsZS5waHBdXG5cdEMgLS0-fERlc2t0b3B8IEVbZGVza3RvcC5waHBdXG5cdEMgLS0-fFVua25vd258IEZbZGVza3RvcC5waHBdXG5cdFx0XHRcdFx0IiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtJbmRleC5waHBdIC0tPnxTZWUgZGV2aWNlfCBCKEdyYWIgVXNlciBBZ2VudClcblx0QiAtLT4gQ3tNb3ZlIGRldmljZX1cblx0QyAtLT58TW9iaWxlfCBEW21vYmlsZS5waHBdXG5cdEMgLS0-fERlc2t0b3B8IEVbZGVza3RvcC5waHBdXG5cdEMgLS0-fFVua25vd258IEZbZGVza3RvcC5waHBdXG5cdFx0XHRcdFx0IiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 # How to use
 
 You make your Mobile page and your main Desktop page.
