@@ -38,28 +38,23 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'opera mini') > 0) {
       $tablet_browser++;
     }
 }
- 
 if ($tablet_browser > 0) {
-   // do something for tablet devices
    $device =
       $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/rscs/home/desk.php";
+      $path .= "/demo/rscs/desktop.php";
       include_once($path);
 }
 else if ($mobile_browser > 0) {
-   // do something for mobile devices
    $device =
       $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/rscs/home/mobile.php";
+      $path .= "/demo/rscs/mobile.php";
       include_once($path);
 }
 else {
-   // do something for everything else
    $device = 
-
    $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/rscs/home/desk.php";
+      $path .= "/demo/rscs/desktop.php";
       include_once($path);
-}   
- 
+} 
+// (C) 2020 NRRINC Media nrrinc.net Apachev2 http://www.apache.org/licenses/  
 ?>
